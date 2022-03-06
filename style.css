@@ -1,0 +1,172 @@
+/* Style the navigation menu */
+
+body {
+    background-color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-image: url(BackgroundImage.png);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #94AF91;
+    color: white;
+  }
+
+  #dark-mode-btn {
+    background-color: #94AF91; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  /* Column container */
+  .sidebar {
+    height: 600px;
+    width: 300px;
+    position: fixed;
+    padding-top: 40px;
+    background-color: #94AF91;
+    padding: 20px;
+    overflow-y: scroll;
+    }
+    
+    .sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    background-image: url ('https://daintydollar.com/wp-content/uploads/2021/08/Teachable-Header-Money-Mindset.png');
+    opacity: 0.75;
+
+    }
+    
+    .main {
+    height: 600px;
+    margin-left: 350px;
+    margin-top: 30px;
+    font-size: 18px;
+    padding-top: 40px;
+    padding: 20px;
+    position: fixed;
+    width: 800px;
+    background-color: white;
+    border: 1px solid black;
+  overflow-y: scroll;
+
+    }
+
+    .emphasis {
+      font-weight: bold;
+      font-size:20px;
+      color: #94AF91;
+    }
+
+    .more {
+      display: none;
+    }
+
+    .blogtitle {
+      font-size:25px;
+      background-color:beige;
+    }
+
+    .product {
+      display:flex;
+      justify-content: space-around center;
+      margin: auto;
+    }
+
+    #photo-of-valery {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: auto;
+      border: 2px solid black;
+      display: block;
+      max-width: 300px;
+   }
+
+   #aboutvalery {
+    width: 50%;
+    height: 50%;
+    border-radius: 60%;
+    margin: auto;
+    border: 2px solid black;
+    display: block;
+    max-width: 300px;
+ }
+
+
+   .blogpost {
+    color: black;
+   }
+
+   #logo {
+     display: flex;
+     justify-content: center;
+   }
+
+   #homepageimg {
+     display: block;
+   align-self: center;
+   margin: auto;
+   }
+
+   #main {
+    display: block;
+    margin: auto;
+    text-align: center;
+   }
+
+   #image-gallery {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-image: url(BackgroundImage.png);
+     background-repeat: repeat;
+     
+   }
+
+a {
+  color: black;
+  font-style: normal;
+}
+
+#personalgallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url(BackgroundImage.png);
+  background-repeat: repeat;
+}
